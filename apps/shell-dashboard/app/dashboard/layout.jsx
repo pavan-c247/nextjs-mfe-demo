@@ -21,6 +21,13 @@ export default function DashboardLayout({ children }) {
           >
             📦 Items (MFE)
           </Link>
+          <Link
+            href="/dashboard/settings"
+            className="block hover:text-blue-400"
+          >
+            ⚙️ Settings
+          </Link>
+
         </nav>
       </aside>
 
